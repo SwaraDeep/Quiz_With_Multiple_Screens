@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="welcome">Welcome to \n#1 Quiz app</string>
+    <string name="instructions">Instructions: \n\n\n1.All questions must be answered. \n2.Each question carries one mark.\n3.No time limit.\n4.Should score 5 marks to qualify.</string>
+    <string name="qstn1">Question 1:\n\nWhich apps can be created by using Android Studio?</string>
+    <string name="qstn2">Question 2:\n\nWhich apps can be created by using Android Studio?</string>
+    <string name="qstn3">Question 3:\n\nWhich apps can be created by using Android Studio?</string>
+    <string name="todo">TODO</string>
+    <string name="answers">Answers:\n1.Android\n2.Java\n3.Tizen\n4.All the above</string>
+</resources>

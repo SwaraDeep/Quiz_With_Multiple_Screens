@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qstn2"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_margin="16dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option21"
+        android:text="Android"
+        android:layout_margin="16dp"
+        android:textSize="25sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:id="@+id/option22"
+        android:layout_margin="16dp"
+        android:textSize="25sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tizen"
+        android:layout_margin="16dp"
+        android:id="@+id/option23"
+        android:textSize="25sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option24"
+        android:text="All the above"
+        android:layout_margin="16dp"
+        android:textSize="25sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:onClick="slide3"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncpy"
+        android:layout_margin="24dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
